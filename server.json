@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/detran_ms_licenciamentos_flex-mcp",
+  "title": "DETRAN MS Guia Flex: Licenciamentos",
+  "description": "DETRAN MS Guia Flex: Vehicle Licensings, official-source lookup. Platform-hosted, pay per query with",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/detran_ms_licenciamentos_flex-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_detran_ms_licenciamentos_flex"
+    }
+  ]
+}
